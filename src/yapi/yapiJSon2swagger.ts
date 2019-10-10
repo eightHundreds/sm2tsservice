@@ -124,6 +124,9 @@ export default function yapiJSon2swagger(list: API[], yapiConfig: Json2Service['
                 if (p.name === 'Content-Type') {
                   continue;
                 }
+                if (p.name === 'Authorization') {
+                  continue;
+                }
                 paramArray.push({
                   name: p.name,
                   in: 'header',
