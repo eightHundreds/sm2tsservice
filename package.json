@@ -1,5 +1,5 @@
 {
-  "name": "sm2tsservice",
+  "name": "mk-sm2tsservice",
   "version": "1.1.9",
   "description": "swagger or yapi mock to typescript services and models",
   "repository": "git@github.com:gogoyqj/sm2tsservice.git",
